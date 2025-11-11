@@ -1,0 +1,1 @@
+UPDATE ComputerList SET Done = 'X' WHERE task_name LIKE '%Apply employee/contractor/intern permissions%' OR task_name LIKE '%Apply role permissions to account - Excel Templates%' OR task_name LIKE '%Create badge%';
