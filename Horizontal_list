@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT (name, ', ') AS all_tables FROM sqlite_master WHERE type = 'table';
